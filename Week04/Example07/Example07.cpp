@@ -6,7 +6,7 @@ int main() {
     int* array_ptr = nullptr;
     int size = 0;
 
-    cout << "Szie of Array? ";
+    cout << "Szie of Array? : ";
     cin >> size;
 
     array_ptr = new int[size];
