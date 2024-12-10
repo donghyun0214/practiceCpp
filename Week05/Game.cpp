@@ -1,20 +1,9 @@
 #include <iostream>
 #include <string>
 
+#include "Player.h"
+
 using namespace std;
-
-class Player {
-public:
-    string name;
-
-private:
-    int health;
-    int xp;
-
-    void Talk(string text);
-    bool isDead();
-
-};
 
 int main() {
     Player* p_ptr = new Player();
