@@ -9,9 +9,7 @@ using namespace std;
 
 class Player {
 public:
-    Player();
-    Player(string name);
-    Player(string name, int health, int xp);
+    Player(string nameVal="None", int healthVal=0, int xpVal=0);
     ~Player();
 
 private:

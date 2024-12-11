@@ -3,12 +3,8 @@
 
 using namespace std;
 
-Account::Account() {}
-
-Account::Account(double val, string str) {
-    balance = val;
-    name = str;
-}
+Account::Account(double val, string str)
+    : balance(val), name(str) {}
 
 Account::~Account() {}
 

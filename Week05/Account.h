@@ -9,8 +9,7 @@ using namespace std;
 
 class Account {
 public:
-    Account();
-    Account(double val, string str);
+    Account(double val=0, string str="None");
     ~Account();
 
     bool Withdraw(double amount);
